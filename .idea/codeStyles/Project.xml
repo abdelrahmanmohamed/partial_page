@@ -1,5 +1,17 @@
 <component name="ProjectCodeStyleConfiguration">
   <code_scheme name="Project" version="173">
+    <DB2CodeStyleSettings version="2">
+      <option name="DISABLE_FORMATTING" value="true" />
+    </DB2CodeStyleSettings>
+    <DerbyCodeStyleSettings version="2">
+      <option name="DISABLE_FORMATTING" value="true" />
+    </DerbyCodeStyleSettings>
+    <H2CodeStyleSettings version="2">
+      <option name="DISABLE_FORMATTING" value="true" />
+    </H2CodeStyleSettings>
+    <HSQLCodeStyleSettings version="2">
+      <option name="DISABLE_FORMATTING" value="true" />
+    </HSQLCodeStyleSettings>
     <JetCodeStyleSettings>
       <option name="PACKAGES_TO_USE_STAR_IMPORTS">
         <value>
@@ -18,8 +30,53 @@
         </value>
       </option>
     </JetCodeStyleSettings>
+    <MSSQLCodeStyleSettings version="2">
+      <option name="DISABLE_FORMATTING" value="true" />
+    </MSSQLCodeStyleSettings>
+    <MySQLCodeStyleSettings version="2">
+      <option name="DISABLE_FORMATTING" value="true" />
+    </MySQLCodeStyleSettings>
+    <OracleCodeStyleSettings version="2">
+      <option name="DISABLE_FORMATTING" value="true" />
+    </OracleCodeStyleSettings>
+    <PostgresCodeStyleSettings version="2">
+      <option name="DISABLE_FORMATTING" value="true" />
+    </PostgresCodeStyleSettings>
+    <SQLiteCodeStyleSettings version="2">
+      <option name="DISABLE_FORMATTING" value="true" />
+    </SQLiteCodeStyleSettings>
     <ScalaCodeStyleSettings>
-      <option name="MULTILINE_STRING_CLOSING_QUOTES_ON_NEW_LINE" value="true" />
+      <option name="classCountToUseImportOnDemand" value="6" />
+      <option name="importLayout">
+        <array>
+          <option value="java" />
+          <option value="javax" />
+          <option value="_______ blank line _______" />
+          <option value="scala" />
+          <option value="_______ blank line _______" />
+          <option value="all other imports" />
+          <option value="_______ blank line _______" />
+          <option value="org.apache.spark" />
+        </array>
+      </option>
+      <option name="sortAsScalastyle" value="true" />
+      <option name="CALL_PARAMETERS_NEW_LINE_AFTER_LPAREN" value="1" />
+      <option name="KEEP_XML_FORMATTING" value="true" />
+      <option name="ENABLE_SCALADOC_FORMATTING" value="false" />
     </ScalaCodeStyleSettings>
+    <SqlCodeStyleSettings version="2">
+      <option name="DISABLE_FORMATTING" value="true" />
+    </SqlCodeStyleSettings>
+    <SybaseCodeStyleSettings version="2">
+      <option name="DISABLE_FORMATTING" value="true" />
+    </SybaseCodeStyleSettings>
+    <codeStyleSettings language="Scala">
+      <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+      <option name="CALL_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
+      <option name="METHOD_PARAMETERS_WRAP" value="5" />
+      <option name="METHOD_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
+      <option name="METHOD_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
+      <option name="METHOD_CALL_CHAIN_WRAP" value="5" />
+    </codeStyleSettings>
   </code_scheme>
 </component>
